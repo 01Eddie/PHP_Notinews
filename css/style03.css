@@ -1,0 +1,59 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*grid-template-rows: ;*/
+    gap: 1px 1px;
+    grid-template-areas: "covid deporte actualidad cultura";
+  }
+  
+  .cultura {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr;
+    gap: 1px 1px;
+    grid-template-areas: "imgcultura imgcultura imgcultura" "detallecultura detallecultura detallecultura";
+    grid-area: cultura;
+  }
+  
+  .imgcultura { grid-area: imgcultura; }
+  
+  .detallecultura { grid-area: detallecultura; }
+  
+  .covid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr;
+    gap: 1px 1px;
+    grid-template-areas: "imgcovid imgcovid imgcovid" "detallecovid detallecovid detallecovid";
+    grid-area: covid;
+  }
+  
+  .imgcovid { grid-area: imgcovid; }
+  
+  .detallecovid { grid-area: detallecovid; }
+  
+  .deporte {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr;
+    gap: 1px 1px;
+    grid-template-areas: "imgdeporte imgdeporte imgdeporte" "detalledeporte detalledeporte detalledeporte";
+    grid-area: deporte;
+  }
+  
+  .imgdeporte { grid-area: imgdeporte; }
+  
+  .detalledeporte { grid-area: detalledeporte; }
+  
+  .actualidad {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr;
+    gap: 1px 1px;
+    grid-template-areas: "imgactualidad imgactualidad imgactualidad" "detalleactualidad detalleactualidad detalleactualidad";
+    grid-area: actualidad;
+  }
+  
+  .imgactualidad { grid-area: imgactualidad; }
+  
+  .detalleactualidad { grid-area: detalleactualidad; }

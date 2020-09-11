@@ -1,0 +1,93 @@
+
+		h1 {
+			font-family: arial;
+			color: red;
+			padding-top: 20px;
+		}		
+		p {
+			font-family: sans-serif;
+			color: blue;
+			font-size: 14px;
+			padding-left: 10px;
+			padding-right: 50px;
+		}
+		
+		fieldset {
+			
+			background-color: #ECE2AF;
+
+		}
+		legend {  
+			color: black;
+			font-size: 16px;
+			text-align: center;
+			
+		}
+		
+		header {
+			background-color: #6BEFE7;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			text-align: center;
+
+		}
+		nav {
+			border-bottom: 1px solid black;
+			border-top: 1px solid black;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background-color: red;
+		}
+		section {
+			float: left;
+			width: 70%;
+			padding-bottom: 10PX;
+
+
+		}
+		aside {
+			float: right;
+			width: 29%;
+			
+		}
+		footer {
+		
+		position: relative;	
+		clear: both;
+		background: #286af0;
+		text-align: center;
+		color:red;
+		}
+		a:hover {
+			color: green;
+			background-color: yellow;
+		}
+		a:active {
+ 			 color: red;
+		}
+		img {
+			padding: 10px 15px;
+		}
+		
+		/* estilos del usuario*/
+
+		.relleno1 {
+			background-color: #ECE2AF;
+			border: 2px solid red;
+		}
+		.relleno2 {
+			background-color: #DDCCF1;
+		}
+		
+		.boton {
+			color: red;
+			background-color: green;
+			font-size: 16px;
+			font-family: arial;
+			cursor: pointer;
+			padding-left: 15px;
+			padding-right: 20px;		
+		}
+		

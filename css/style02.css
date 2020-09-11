@@ -1,0 +1,47 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-rows: ;*/
+    gap: 1px 1px;
+    grid-template-areas: "noti1 noti2 noti3";
+  }
+  
+  .noti1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr;
+    gap: 1px 1px;
+    grid-template-areas: "img1 img1 img1" "detalle1 detalle1 detalle1";
+    grid-area: noti1;
+  }
+  
+  .detalle1 { grid-area: detalle1; }
+  
+  .img1 { grid-area: img1; }
+  
+  .noti2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr;
+    gap: 1px 1px;
+    grid-template-areas: "img2 img2 img2" "detalle2 detalle2 detalle2";
+    grid-area: noti2;
+  }
+  
+  .img2 { grid-area: img2; }
+  
+  .detalle2 { grid-area: detalle2; }
+  
+  .noti3 {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr 0.9fr;
+    grid-template-rows: 0.5fr 1.5fr;
+    gap: 1px 1px;
+    grid-template-areas: "img3 img3 img3" "detalle3 detalle3 detalle3";
+    grid-area: noti3;
+  }
+  
+  .img3 { grid-area: img3; }
+  
+  .detalle3 { grid-area: detalle3; }
+  

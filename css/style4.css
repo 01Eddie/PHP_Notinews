@@ -1,0 +1,85 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.2fr 0.1fr 1.2fr 0.1fr 1.2fr;
+    grid-template-rows: 0.3fr 0.1fr 0.3fr;
+    gap: 1px 1px;
+    grid-template-areas: "deporte1 . deporte2 . deporte3" ". . . . ." "deporte4 . deporte5 . deporte6";
+  }
+  
+  .deporte1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "img1 img1 img1" "detalle1 detalle1 detalle1";
+    grid-area: deporte1;
+  }
+  
+  .img1 { grid-area: img1; }
+  
+  .detalle1 { grid-area: detalle1; }
+  
+  .deporte2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "img2 img2 img2" "detalle2 detalle2 detalle2";
+    grid-area: deporte2;
+  }
+  
+  .img2 { grid-area: img2; }
+  
+  .detalle2 { grid-area: detalle2; }
+  
+  .deporte3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "img3 img3 img3" "detalle3 detalle3 detalle3";
+    grid-area: deporte3;
+  }
+  
+  .detalle3 { grid-area: detalle3; }
+  
+  .img3 { grid-area: img3; }
+  
+  .deporte4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "img4 img4 img4" "detalle4 detalle4 detalle4";
+    grid-area: deporte4;
+  }
+  
+  .img4 { grid-area: img4; }
+  
+  .detalle4 { grid-area: detalle4; }
+  
+  .deporte5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "img5 img5 img5" "detalle5 detalle5 detalle5";
+    grid-area: deporte5;
+  }
+  
+  .detalle5 { grid-area: detalle5; }
+  
+  .img5 { grid-area: img5; }
+  
+  .deporte6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "img6 img6 img6" "detalle6 detalle6 detalle6";
+    grid-area: deporte6;
+  }
+  
+  .img6 { grid-area: img6; }
+  
+  .detalle6 { grid-area: detalle6; }
